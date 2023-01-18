@@ -15,7 +15,7 @@ section {
     --Patua: "Patua-One", cursive;
     --Lobster: "Lobster", cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --bggradient: linear-gradient(to bottom, #24b8dd, #0e25f1);
     --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -50,7 +50,7 @@ header .navbar-brand {
 }
 
 header .nav-link:hover {
-    color: rgb(0, 238, 255);
+    color: rgb(0, 59, 253);
 }
 
 header .row .col-md-5 {
