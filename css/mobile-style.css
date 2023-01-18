@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .section-1 .cover {
+        background-position: -20vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-2 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-2 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-2 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-2 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-3 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    .section-3 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    footer .row .col-md-6 {
+        margin-top: 8vmin;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .section-3 .card {
+        width: 18rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-3 .card {
+        width: 17rem;
+    }
+
+    .logo {
+        width: 70%;
+    }
+}
